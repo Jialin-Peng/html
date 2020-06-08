@@ -1,0 +1,43 @@
+<!-- 编写人：彭佳林  学号：1811030118 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>西昌学院教务系统</title>
+		<link rel="shortcut icon" href="./images/favicon.ico"/>
+		<link rel="stylesheet" href="./style/index.css" />
+		<script src="./js/index.js"></script>
+	</head>
+	<body onload="webLoad();">
+		<div id="n0">
+			<div id="n1"></div>
+			<div id="m0">
+			<div id="n2">
+				<object data="images/login_pic.png" ></object>
+			</div>
+			<div id="n3">
+				<form id="logOn" action="main.html" onsubmit="return valInputCode()" target="_blank" method="post" >
+					<input class="p0" type="radio" name="k" onclick="checkedUser(0)" />&nbsp;部门&nbsp;&nbsp;
+					<input class="p0" type="radio" name="k" onclick="checkedUser(1)"/>&nbsp;教师&nbsp;&nbsp;
+					<input class="p0" type="radio" name="k" onclick="checkedUser(2)"/>&nbsp;学生&nbsp;&nbsp;
+					<input class="p0" type="radio" name="k" onclick="checkedUser(3)" checked="checked"/>&nbsp;访客&nbsp;&nbsp;<br />
+					<object data="images/user.gif"></object>&nbsp;&nbsp;&nbsp;
+					用户名：<input type="text" id="un" name="un" onclick="removeName()"/><br />
+					<img style="width: 16px;height: 17px;" src="./images/pwd.gif" />&nbsp;&nbsp;&nbsp;
+					密&nbsp;&nbsp;&nbsp;码：<input type="password" id="pwd" onclick="removePwd();"/><span id="pwdts"></span><br />
+					<div id="n7" ><div id="n8"><img src="images/yzm.png" />&nbsp;&nbsp;&nbsp;
+					验证码：<input id="yzm" type="text" onclick="removeYam()"/></div>
+					<span id="yzmcode" onclick="switchCode(this)"></span></div><br />
+					<div id="n10">
+					<input id="p1" type="submit" value=""/>
+					<input id="p2" type="reset"value="" onclick="refresh()"/>
+					</div>
+				</form>
+			</div>
+			</div>
+			<div id="n4">
+				<div id="n5"><p>©1999-2012</div><div id="n6"></div>西昌学院&nbsp;&nbsp;版权所有&nbsp;&nbsp;联系电话：0834-2580001</p>
+			</div>
+		</div>
+	</body>
+</html>

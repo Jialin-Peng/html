@@ -1,0 +1,105 @@
+/* 编写人：彭佳林  学号：1811030118 */
+*{
+	padding: 0px;
+	margin: auto;
+	font-family: "微软雅黑",Arial, Helvetica, sans-serif;
+	font-size: 12PX;
+}
+#frame{
+	width: 960px;
+	height: 605px;
+}
+#logo,#nav,#con,#cr{
+	width: 960px;	
+}
+#logo{
+	height: 160px;
+	background-color: #00AAFF;
+}
+#logo img{
+	width: 960px;
+	height: 160px;
+}
+#nav{
+	position: relative;
+	height: 75px;
+	background-color: #4373cb;
+}
+#nav  #mainmenu span{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+#nav  #sm span{
+	color: #FFFFFF;
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+}
+#nav #mainmenu {
+	height: 40px;
+}
+#nav #sm{
+	height: 35px;
+}
+#nav #mainmenu li{
+	width:90px;
+	display: inline;
+	color: #FFFFFF;
+	float: left;
+	text-align: center;
+}
+#nav #sm li{
+	display: inline;
+	color: #000000;
+	float: left;
+	text-align: center;
+}
+#nav #sm .menu_line{
+	color: #FFFFFF;
+	text-align: center;
+	width: 20px;
+}
+#nav #sm .sm_style{
+	height: 25px;
+	background:#55aaff;
+}
+#nav #sm ul{
+	margin-left: 30px;
+}
+#con #left_bar{
+	width: 300px;
+	height:300px;
+	background-color: #008000;
+	float: left;
+}
+#con #left_bar img{
+	width: 300px;
+	height:300px;
+}
+#con #right_win{
+	width: 660px;
+	height:300px;
+	float: left;
+}
+#cr{
+	position: relative;
+	height: 70px;
+	background-color: #55ffff;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+}
+#nav #loginname{
+	width: 100px;
+	height: 20px;
+	color: #55FFFF;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+#con #right_win iframe{
+	width: 660px;
+	height: 300px;
+	border: 0px;
+}

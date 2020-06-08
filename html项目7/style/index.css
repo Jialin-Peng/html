@@ -1,0 +1,116 @@
+/* 编写人：彭佳林  学号：1811030118 */
+*{/*全局设置*/
+	padding: 0px;
+	margin: 0px auto;/*居中：设置选择的对象在其所在的容器中居中*/
+	font: 12px/1.5/*行高*/ arial 宋体;
+}
+body{
+	background: url(../images/login_bg.jpg) repeat-x;
+}
+#n1{
+	position: relative;
+	width: 212px;
+	height: 60px;
+	margin-left: 330px;
+	margin-top: 50px;
+	background: url(../images/logo_school.png);
+}
+#m0{
+	position: absolute;
+	width: 888px;
+	height: 400px;
+	margin-left: 330px;
+	margin-top: 50px;
+}
+#n2{
+	position: relative;
+	width: 426px;
+	height: 340px;
+	background: url(../images/login_left.jpg);
+	float: left;
+}
+#n3{
+	position: relative;
+	width: 462px;
+	height: 340px;
+	margin-left: 426px;
+	background: url(../images/login_right.jpg);
+	border-bottom: 3px solid #ffaa7f;
+}
+form{
+	margin-left:112px;
+	line-height: 35px;
+}
+.p0{
+	margin-top: 100px;
+}
+#n4{
+	position: absolute;
+	margin-left: 570px;
+	margin-top: 400px;
+	width: 800px;
+	color: #4169E1;
+	
+}
+#n5{
+	float: left;
+}
+#n6{
+	background: url(../images/logo_copy.gif);
+	width: 20px;
+	height: 23px;
+	display: block;
+	float: left;
+}
+#n6:hover{
+	background: url(../images/logo_copyhov.gif);
+	width: 20px;
+	height: 23px;
+	display: block;
+}
+#yzm{
+	width: 90px;
+}
+#n7{
+	width: 480px;
+}
+#n8{
+	width: 200px;
+	float: left;
+}
+#yzmcode{
+	display: inline-block;
+	width: 71px;
+	height: 26px;
+	background: url(../images/code_bg.gif) no-repeat;
+	color: #FF0000;
+	text-align: center;
+}
+#n10{
+	position: relative;
+	margin-left: 0px;
+	margin-top: -32px;
+}
+#pwdts{
+	color: #FF0000;
+	font-size: x-small;
+}
+#un{
+	color: #6d6d6d;
+}
+#yzm{
+	color: #6d6d6d;
+}
+#p1{
+	width: 58px;
+	height: 20px;
+	background: url(../images/login_in.gif);
+	border: 0px;
+}
+#p2{
+	width: 58px;
+	height: 20px;
+	background: url(../images/login_res.gif);
+	border: 0px;
+}
+

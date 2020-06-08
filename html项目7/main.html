@@ -1,0 +1,118 @@
+<!-- 编写人：彭佳林  学号：1811030118 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>课程网站</title>
+		<link rel="stylesheet" type="text/css" href="./style/main.css" />
+		<script src="js/main.js"></script>
+	</head>
+	<body onload="getLoginName();init()">
+		<div id="frame">
+			<div id="logo">
+				<img src="main-images/logo_bar.png" />
+			</div>
+			<div id="nav">
+				<ul id="mainmenu">
+					<li><a id="mm0" class="mm_on" href="first.html" target="framebody"><span>首页</span></a></li>
+					<li><a id="mm1" class="mm_off" href="course.html" target="framebody"><span onmouseover="switchMenu(1)">课程简介</span></a></li>
+					<li><a id="mm2" class="mm_off" href="" target=""><span onmouseover="switchMenu(2)">教学文件</span></a></li>
+					<li><a id="mm3" class="mm_off" href="" target=""><span onmouseover="switchMenu(3)">教学团队</span></a></li>
+					<li><a id="mm4" class="mm_off" href="" target=""><span onmouseover="switchMenu(4)">教学课件</span></a></li>
+					<li><a id="mm5" class="mm_off" href="" target=""><span onmouseover="switchMenu(5)">实验项目</span></a></li>
+					<li><a id="mm6" class="mm_off" href="" target=""><span onmouseover="switchMenu(6)">课程设计</span></a></li>
+					<li><a id="mm7" class="mm_off" href="exam.html" target="framebody"><span onmouseover="switchMenu(7)">在线测验</span></a></li>
+					<li><a id="mm8" class="mm_off" href="" target=""><span onmouseover="switchMenu(8)">网络资源</span></a></li>
+				</ul>
+				<div id="sm">
+					<ul id="sm1" style="display: none;">
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;课程发展&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>&nbsp;&nbsp;
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;课程特色&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;教学成果&nbsp;&nbsp;</span></a></li>
+					</ul>
+					<ul id="sm2" style="display: none;">
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;教学大纲&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;教学计划&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;实验计划&nbsp;&nbsp;</span></a></li>
+					</ul>
+					<ul id="sm3" style="display: none;">
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;教学工作&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;教学改革&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;科研成果&nbsp;&nbsp;</span></a></li>
+					</ul>
+					<ul id="sm4" style="display: none;">
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;HTNL&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;CSS&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;JavaScript&nbsp;&nbsp;</span></a></li>
+					</ul>
+					<ul id="sm5" style="display: none;">
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;HTML部分实验&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;CSS部分实验&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;JavaScript部分实验&nbsp;&nbsp;</span></a></li>
+					</ul>
+					<ul id="sm6" style="display: none;">
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;设计案例1&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;设计案例2&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;设计案例3&nbsp;&nbsp;</span></a></li>
+					</ul>
+					<ul id="sm7" style="display: none;">
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;综合练习1&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;综合练习2&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;综合练习3&nbsp;&nbsp;</span></a></li>
+					</ul>
+					<ul id="sm8" style="display: none;">
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;HTML教程&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;HTML5规范&nbsp;&nbsp;</span></a></li>
+						<li class="menu_line">|</li>
+						<li class="sm_style"><a href="#"><span>&nbsp;&nbsp;jQuer在线手册&nbsp;&nbsp;</span></a></li>
+					</ul>
+				</div>
+				<span id="loginname">1811030118</span>
+			</div>
+			<div id="con">
+				<div id="left_bar">
+					<a href="#"><img id="pic" src="main-images/1.jpg" onmouseover="pause();" onmouseout="reStart();"/></a>
+				</div>
+				<div id="right_win">
+					<iframe name="framebody"></iframe>
+				</div>
+			</div>
+			<div id="cr">
+				<span>友情链接：</span>
+				<select name="list1" size="1" onchange="window.open(this.options[this.selectedIndex].value)">
+					<option>中国名牌大学</option>
+					<option value="https://www.tsinghua.edu.cn/">清华大学</option>
+					<option value="https://www.pku.edu.cn/">北京大学</option>
+					<option value="https://www.fudan.edu.cn/">复旦大学</option>
+					<option value="https://www.fudan.edu.cn/">上海交通大学</option>
+					<option value="https://www.whu.edu.cn/">武汉大学</option>
+				</select>
+				<select name="list1" size="1" onchange="window.open(this.options[this.selectedIndex].value)">
+					<option>网络课程资源链接</option>
+					<option value="https://www.icourse163.org/">中国MOOC大学</option>
+					<option value="https://www.zhihuishu.com/">智慧树</option>
+					<option value="https://www.w3cschool.cn//">编程狮</option>
+					<option value="https://developer.mozilla.org/zh-CN/">MDN web docs</option>
+					<option value="https://www.runoob.com/">菜鸟教程</option>
+					<option value="https://www.fontsquirrel.com/tools/webfont-generator">网页字体生成</option>
+				</select><br />
+				<span id="cr1">HTML程序设计课程组&nbsp;&nbsp;&nbsp;2010-2020&nbsp;©&nbsp;保留所有权利&nbsp;&nbsp;&nbsp;未经允许不得复制镜像</span>
+			</div>
+		</div>
+	</body>
+</html>
