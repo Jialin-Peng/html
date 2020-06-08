@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100vh;
+	background: radial-gradient(300px at right top,red,yellow,skyblue);
+	overflow: hidden;
+}
+img{
+	width: 100px;
+	position: absolute;
+	left: 0;
+	top: 100vh;
+}
+body:hover img{
+	transform: translate(200vh,-950px) rotate(45deg) scale(0.5);
+	transition: all 4s; 
+}

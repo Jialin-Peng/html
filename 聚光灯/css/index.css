@@ -1,0 +1,45 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	background-color: #222222;
+}
+p{
+	text-decoration: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	font-size: 80px;
+	font-weight: bold;
+	color: #333333;
+	position: position;
+}
+p:after{
+	content: "SPOTLIGHT";
+	color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(90deg,#c23616,#192a56,#00d2d3,yellow,#6d214f,#2e86de,#4cd137,#e84118);
+	background-clip: text;
+	-webkit-background-clip: text;
+	clip-path: circle(100px at 0% 50%);
+	-webkit-clip-path: circle(50px at 0% 50%);
+	animation: light 4s infinite;
+}
+@keyframes light{
+	0%{
+		clip-path: circle(50px at 0% 50%);
+		-webkit-clip-path: circle(100px at 0% 50%);
+	}
+	50%{
+		clip-path: circle(50px at 100% 50%);
+		-webkit-clip-path: circle(100px at 100% 50%);
+	}
+	100%{
+		clip-path: circle(50px at 0% 50%);
+		-webkit-clip-path: circle(100px at 0% 50%);
+	}
+}
