@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #cfedcd;
+	font-size: 12px;
+}
+#blank,#nav,#logo,#content,#copyright{
+	width: 778px;
+	margin: 0px auto;
+}
+#blank{
+	height: 10px;
+	background: #399c00;
+}
+#nav{
+	height: 51px;
+	background: blue;
+}
+#nav object{
+	width: 778px;
+	height: 51px;
+	display: block;
+}
+#logo{
+	height: 153px;
+	background: url("../images/banner.jpg") no-repeat left top;
+}
+#logo object{
+	width: 778px;
+	height: 153px;
+	
+}
+#content{
+	height: 371px;
+	background: green;
+}
+#copyright{
+	height: 30px;
+	background: green;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+}

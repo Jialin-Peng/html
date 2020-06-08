@@ -1,0 +1,39 @@
+#content{
+	height: 490px;
+}
+#content #left{
+	width: 260px;
+	height: 490px;
+	background: #FFFFFF;
+	float:left;
+	border-right: #CCC solid 1px;
+}
+#content #left object{
+	width: 220px;
+	height: 250px;
+	display: block;
+	margin: 0px auto;
+}
+#content #right{
+	width: 605.5px;
+	height: 490px;
+	background: #FFFFFF;
+	float:left;
+}
+#content #right h1{
+	width: 123px;
+	height: 35px;
+	background: url(../images/lianxi.gif) no-repeat;
+	text-indent:-1000px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#content #right ul{
+	margin-left: 20px;
+	list-style: none;
+}
+#content #right a{
+	margin-top: 30px;
+	margin-left: 130px;
+	float: left;
+}

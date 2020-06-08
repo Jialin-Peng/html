@@ -1,0 +1,12 @@
+*{
+	margin: 20px auoto;
+	padding: 0px;
+}
+body{
+	background:#cfedcd;
+}
+object{
+	width: 820px;
+	height: 560px;
+	display: block;
+}

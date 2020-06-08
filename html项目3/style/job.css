@@ -1,0 +1,49 @@
+#content{
+	height: 490px;
+}
+#content #left{
+	width: 260px;
+	height: 490px;
+	background: #FFFFFF;
+	float:left;
+	border-right: #CCC solid 1px;
+}
+#content #left object{
+	width: 220px;
+	height: 250px;
+	display: block;
+	margin: 0px auto;
+}
+#content #right{
+	width: 605.5px;
+	height: 490px;
+	background: #FFFFFF;
+	float:left;
+}
+#content #right h1{
+	width: 123px;
+	height: 35px;
+	background: url(../images/job.gif) no-repeat;
+	text-indent:-1000px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#content #right table{
+	border-collapse: collapse;
+	border: 1px solid #000000;
+	width: 500px;
+	margin-left: 20px;
+}
+#content #right table td{
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	text-align: center;
+}
+#content #right table tr td.j1{
+	color: #4169E1;
+}
+#content #right a{
+	margin-top: 30px;
+	margin-left: 130px;
+	float: left;
+}

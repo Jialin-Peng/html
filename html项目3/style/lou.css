@@ -1,0 +1,138 @@
+#content{
+	height: 700px;
+}
+#content #left{
+	width: 260px;
+	height: 700px;
+	background: #FFFFFF;
+	float:left;
+	border-right: #CCC solid 1px;
+}
+#content #left object{
+	width: 220px;
+	height: 250px;
+	display: block;
+	margin: 0px auto;
+}
+#content #right{
+	width: 605.5px;
+	height: 700px;
+	background: #FFFFFF;
+	float:left;
+}
+#content #right h1{
+	width: 123px;
+	height: 35px;
+	background: url(../images/lou.gif) no-repeat;
+	text-indent:-1000px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#content #right #l1{
+	width: 280px;
+	height: 190px;
+	float: left;
+}
+#content #right #l11{
+	position: relative;
+	margin-left: 20px;
+	width: 250px;
+	height: 150px;
+	background:url(../images/pic1.jpg) no-repeat;
+}
+#content #right #l12{
+	position: relative;
+	margin-left: 29px;
+	width: 232px;
+	height: 37px;
+	background: #dcdcdc;
+	border-bottom: 3px solid #ffaa00;
+}
+#content #right #l2{
+	width: 280px;
+	height: 190px;
+	float: left;
+}
+#content #right #l21{
+	position: relative;
+	margin-left: 17px;
+	width: 250px;
+	height: 150px;
+	background:url(../images/pic2.jpg) no-repeat 0px;
+}
+#content #right #l22{
+	position: relative;
+	margin-left: 25px;
+	width: 232px;
+	height: 37px;
+	background: #dcdcdc;
+	border-bottom: 3px solid #ffaa00;
+}
+#content #right #l3{
+	width: 280px;
+	height: 190px;
+	float: left;
+}
+#content #right #l31{
+	position: relative;
+	margin-left: px;
+	width: 280px;
+	height: 150px;
+	background: url(../images/pic3.jpg) no-repeat 20px;
+}
+#content #right #l32{
+	position: relative;
+	margin-left: 29px;
+	width: 232px;
+	height: 37px;
+	background: #dcdcdc;
+	border-bottom: 3px solid #ffaa00;
+}
+#content #right #l4{
+	width: 280px;
+	height: 190px;	float: left;
+}
+#content #right #l41{
+	position: relative;
+	margin-left: 17px;
+	width: 250px;
+	height: 150px;
+	background:url(../images/pic4.jpg) no-repeat 0px;
+}
+#content #right #l42{
+	position: relative;
+	margin-left: 25px;
+	width: 232px;
+	height: 37px;
+	background: #dcdcdc;
+	border-bottom: 3px solid #ffaa00;
+}
+#content #right #l5{
+	width: 280px;
+	height: 190px;
+	float: left;
+}
+#content #right #l51{
+	position: relative;
+	margin-left: px;
+	width: 280px;
+	height: 150px;
+	background:url(../images/pic5.jpg) no-repeat 20px;
+}
+#content #right #l52{
+	position: relative;
+	margin-left: 29px;
+	width: 232px;
+	height: 37px;
+	background: #dcdcdc;
+	border-bottom: 3px solid #ffaa00;
+}
+#content #right p{
+	margin-left: 70px;
+	line-height: 2.8em;
+}
+#content #right a{
+	margin-top: 30px;
+	margin-left: 130px;
+	float: left;
+}

@@ -1,0 +1,41 @@
+#content{
+	height: 800px;
+}
+#content #left{
+	width: 260px;
+	height: 800px;
+	background: #FFFFFF;
+	float:left;
+	border-right: #CCC solid 1px;
+}
+#content #left object{
+	width: 220px;
+	height: 250px;
+	display: block;
+	margin: 0px auto;
+}
+#content #right{
+	width: 605.5px;
+	height: 800px;
+	background: #FFFFFF;
+	float:left;
+}
+#content #right h1{
+	width: 123px;
+	height: 35px;
+	background: url(../images/aboutme.gif) no-repeat;
+	text-indent:-1000px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#content #right img{
+	margin-left: 15px;
+}
+#content #right p{
+	width: 530px;
+	line-height: 1.9em;
+	margin-left: 15px;
+}#content #right p span{
+	margin-left: 15px;
+	color: #00aaff;
+}

@@ -1,0 +1,45 @@
+#content{
+	height: 371px;
+	background:#FFFFFF url("../images/intro.jpg") no-repeat left bottom;
+}
+#content ul{
+	list-style: none;
+	height: 30px;
+	color: #008000;
+	text-align: center;
+	line-height: 30px;
+	background: url(../images/tel.gif) no-repeat 90% 35%;
+}
+#content ul li{
+	display: inline;
+}
+#content ul li a{
+	text-decoration: none;
+	color: #008000;
+}
+#four{
+	position:absolute ;
+	left: 25%;
+}
+#one{
+	position: absolute;
+	left: 55%;
+	top:43%;
+	font-size: 15px;
+}
+#two{
+	position: absolute;
+	left:45%;
+	top:50%;
+	width: 400px;
+}
+#three{
+	position: absolute;
+	left: 45%;
+	top:66%;
+	width: 400px;
+}
+#content ul li a:hover{
+	text-decoration: underline;
+	color: #FF0000;
+}
